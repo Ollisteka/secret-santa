@@ -25,7 +25,7 @@ type IconTypes = keyof typeof icons
 
 type IconProps = {
   id: IconTypes,
-  size: number,
+  size?: number,
 }
 
 export const Icon: FC<IconProps> = ({ id, size = 24}) => (

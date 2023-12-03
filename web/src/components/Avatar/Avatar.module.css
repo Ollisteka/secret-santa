@@ -1,0 +1,28 @@
+.wrapper {
+  position: relative;
+}
+
+.image,
+.base {
+  width: 60px;
+  height: 60px;
+  font-size: 32px;
+}
+
+.image {
+  max-width: 60px;
+}
+
+.santaHat {
+  position: absolute;
+  top: -22px;
+  left: 15px;
+}
+
+.statusIcon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  bottom: 4px;
+  left: 44px;
+}
